@@ -1,5 +1,8 @@
 # Demo Website - PhatSec
 
+![Website preview](https://phatsec.netlify.app/scrst2.png)
+![My workspace](https://phatsec.netlify.app/scrst.png)
+
 ### Author Information
 **Author:** Nguyen Tuong Phat  
 **GitHub Username:** SimonDevlp  
