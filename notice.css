@@ -1,0 +1,34 @@
+.notice {
+    padding: 15px 0;
+    background-color: coral;
+    z-index: 2;
+    position: fixed;
+    width: 100%
+}
+
+.notice span {
+    margin: 0 15px;
+    color: white;
+    float: left
+}
+
+.notice span#close {
+    float: right
+}
+
+.notice table {
+    width: 100%
+}
+
+.notice td#1 {
+    width: 75% !important
+}
+
+.notice #close {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.notice #close:hover {
+    color: rgb(255, 215, 201);
+}

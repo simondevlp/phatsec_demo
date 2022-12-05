@@ -1,0 +1,160 @@
+@font-face {
+    font-family: SegoeUI;
+    src: url(../res/sserif.ttf);
+}
+
+div.section {
+    width: 100%
+}
+
+div.section#s1 {
+    background-color: rgb(27, 114, 194);
+    padding: 55px 0;
+    width: 100%;
+    text-align: center;
+}
+
+div.section#s1 * {
+    color: white
+}
+
+div.section#s1 h1 {
+    font-weight: 600;
+}
+
+div.section#s2 {
+    margin: 50px 0;
+    height: 100%
+}
+
+div.section#s2 table {
+    width: 100% !important
+}
+
+div.section#s2 table,
+div.section#s2 td,
+div.section#s2 tr {
+    width: 50%;
+    margin: 0 auto
+}
+
+div.section#s2 .subsection {
+    width: 100%;
+    text-align: center;
+}
+
+div.section#s2 .subsection i {
+    font-size: 55px;
+    color: rgb(27, 114, 194);
+}
+
+div.section#s2 .subsection .title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+div.section#s3 {
+    background-color: rgb(27, 114, 194);
+    padding: 50px 0;
+}
+
+div.section#s3 table {
+    width: 100%;
+}
+
+div.section#s3 td {
+    width: calc(100% / 3);
+    padding: 15px 0
+}
+
+div.section#s3 .subsection {
+    text-align: center;
+    color: white
+}
+
+div.section#s3 .num {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+div.section#s3 .quote {
+    background-color: white;
+    margin: 10px 30px;
+    border-radius: 10px;
+    padding: 10px
+}
+
+div.section#s3 .quote#jane_doe {
+    margin-bottom: 0;
+}
+
+div.section#s3 .quote .author {
+    color: rgb(27, 114, 194);
+    font-weight: 600;
+}
+
+div.section#s4 {
+    padding: 45px 0;
+}
+
+div.section#s4 *:not(div) {
+    margin-left: 45px
+}
+
+div.section#s4 .title {
+    font-size: 18px
+}
+
+div.section#s4 #regis {
+    margin-top: 15px;
+}
+
+div.section#s4 input {
+    width: calc(100% - 175px);
+    font-size: 18px;
+    margin-right: -35px;
+    border-width: 0px 0px 2px 0px;
+}
+
+div.section#s4 input:hover {
+    border-color: rgb(27, 114, 194);
+}
+
+div.section#s4 input:focus {
+    border-color: rgb(27, 114, 194);
+    outline: none;
+}
+
+div.section#s4 input:active {
+    border-color: rgb(27, 114, 194);
+    outline: none;
+}
+
+div.section#s4 #submit {
+    font-size: 18px;
+    width: 75px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: 3px black solid;
+    border-width: 0;
+}
+
+div.section#s4 #submit:hover {
+    background-color: rgb(27, 114, 194);
+    color: white;
+    outline: 3px rgb(27, 114, 194) solid;
+    animation: btn_trans 0.2s;
+    transform: scale(105%);
+}
+
+@keyframes btn_trans {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+        outline: 3px black solid;
+    }
+
+    to {
+        background-color: rgb(27, 114, 194);
+        color: white;
+        outline: 3px rgb(27, 114, 194) solid;
+    }
+}

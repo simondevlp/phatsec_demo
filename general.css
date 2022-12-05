@@ -1,0 +1,45 @@
+@font-face {
+    font-family: SegoeUI;
+    src: url(../res/sserif.ttf);
+}
+
+* {
+    font-family: SegoeUI;
+}
+
+*::selection {
+    background-color: rgb(17, 75, 130);
+    color: rgb(139, 175, 208)
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+a {
+    color: rgb(27, 114, 194);
+    text-decoration: none;
+    border-bottom: 1px rgb(27, 114, 194) dotted;
+    margin-bottom: -1px;
+}
+
+a:hover {
+    border-bottom: 1px rgb(27, 114, 194) solid;
+    margin-bottom: -1px;
+    animation: a_trans 0.2s;
+    transform: scale(105%);
+}
+
+@keyframes a_trans {
+    from {
+        border-bottom: 1px rgb(27, 114, 194) dotted;
+        margin-bottom: -1px;
+    }
+
+    to {
+        border-bottom: 1px rgb(27, 114, 194) solid;
+        margin-bottom: -1px;
+    }
+}

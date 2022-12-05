@@ -1,0 +1,36 @@
+@font-face {
+    font-family: SegoeUI;
+    src: url(../res/sserif.ttf);
+}
+
+header {
+    height: 60px;
+    padding: 15px;
+}
+
+header img {
+    height: 60px;
+    float: left;
+}
+
+header a:has(span) {
+    float: right;
+    font-size: 18px;
+}
+
+header a:has(span):not([id="about"]) {
+    margin-right: 30px
+}
+
+footer {
+    background-color: rgb(27, 114, 194);
+    padding: 45px
+}
+
+footer span.contact {
+    color: white
+}
+
+footer span.notice {
+    color: rgb(255, 127, 80)
+}
